@@ -11,7 +11,6 @@ module.exports.create = (event, context, callback) =>
   const timestamp = date.getMonth().toString() + date.getDate().toString() + date.getFullYear().toString();
   const data = JSON.parse(event.body);
   
-  
   /*
   if (typeof data.payload !== 'string') 
   {
@@ -25,8 +24,7 @@ module.exports.create = (event, context, callback) =>
 
     return;
   }
-  */
-  
+  */ 
 
   const params = 
   {
